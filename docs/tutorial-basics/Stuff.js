@@ -57,4 +57,38 @@ const Stuff = () =>{
   }
 }
 
+
+
+// const Stuff = () => {
+
+//   const[input, setInput] = useState("")
+//   return(
+//     <>
+//     <div>
+//       <form>
+//         <label>
+//           <input type="text" name="name" value={input} onChange={(e) => setInput(e.target.value)}/>
+//         </label>
+//         <button 
+//           onClick={(e)=>{
+//             e.preventDefault()
+//             console.log(input)
+//           }}
+//         >BUTTON</button>
+//         <p>{input}</p>
+//       </form>
+//     </div>
+//     <div>
+//     <label htmlFor="cars">Choose a car:</label>
+//     <select name="cars" id="cars">
+//       <option value="volvo">Volvo</option>
+//       <option value="saab">Saab</option>
+//       <option value="mercedes">Mercedes</option>
+//       <option value="audi">Audi</option>
+//     </select>
+//     </div>
+//     </>
+//   )
+// }
+
 export default Stuff;
