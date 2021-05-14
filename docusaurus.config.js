@@ -24,7 +24,6 @@ module.exports = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/api', label: 'API', position: 'left'},
         {to: '/helloReact', label: 'ReactPage', position: 'left'},
         {to: '/docs/tutorial-basics/markdown-features', label: 'Test', position: 'left'},
         {
